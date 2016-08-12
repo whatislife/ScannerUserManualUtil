@@ -40,7 +40,7 @@ public class ClientGUI implements ActionListener {
 		double lx = Toolkit.getDefaultToolkit().getScreenSize().getWidth();
 		
 		double ly = Toolkit.getDefaultToolkit().getScreenSize().getHeight();
-		ImageIcon icon=new ImageIcon(ClientGUI.class.getClassLoader() .getResource("image2/scanner.png"));
+		ImageIcon icon=new ImageIcon(ClientGUI.class.getClassLoader() .getResource("image/scanner.png"));
 		Image image=icon.getImage();
 		frame.setLocation(new Point((int) (lx / 2) - 150, (int) (ly / 2) - 150));// 设定窗口出现位置
 		frame.setSize(330, 160);// 设定窗口大小
