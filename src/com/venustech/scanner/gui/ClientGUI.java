@@ -106,6 +106,7 @@ public class ClientGUI implements ActionListener {
 				JOptionPane.showMessageDialog(null, flag, "提示", 2);
 			}
 		}
+		
 	}
 	public static void main(String[] args) {
 		new ClientGUI();
